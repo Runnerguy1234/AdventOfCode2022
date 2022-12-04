@@ -21,7 +21,7 @@ fn main() {
     let mut sum1: u32 = 0;
     for line in input.lines() {
         let compartment_size = line.len() / 2;
-        let compartment_one = &line[0..compartment_size];
+        let compartment_one = &line[..compartment_size];
         let compartment_two = &line[compartment_size..];
 
         let mut duplicate = ' ';
