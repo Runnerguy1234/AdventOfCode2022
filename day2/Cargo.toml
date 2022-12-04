@@ -3,10 +3,4 @@ name = "day2"
 version = "0.1.0"
 edition = "2021"
 
-[profile.release]
-debug = 0
-codegen-units = 1
-opt-level = 3
-strip = "debuginfo"
-
 [dependencies]

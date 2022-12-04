@@ -4,3 +4,9 @@ members = [
     "day2",
     "day3",
 ]
+
+[profile.release]
+debug = 0
+codegen-units = 1
+opt-level = 3
+strip = "debuginfo"
