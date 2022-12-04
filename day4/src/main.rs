@@ -25,9 +25,6 @@ fn main() {
         let elf1_range = (next_number(&mut chars), next_number(&mut chars));
         let elf2_range = (next_number(&mut chars), next_number(&mut chars));
         if elf1_range.0.is_none()
-            || elf1_range.1.is_none()
-            || elf2_range.0.is_none()
-            || elf2_range.1.is_none()
         {
             break;
         }
